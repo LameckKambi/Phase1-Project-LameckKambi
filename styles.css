@@ -1,4 +1,4 @@
-/* Reset CSS */
+
 *,
 *::before,
 *::after {
@@ -7,7 +7,7 @@
   box-sizing: inherit;
 }
 
-/* New styles for the blog layout, videos, and news cards */
+
 body {
   font-family: "Arial", sans-serif;
   color: #333;
@@ -94,8 +94,8 @@ main {
     max-width: 100%;
     height: 0;
     overflow: hidden;
-    border: 4px solid #e21919ec; /* Example border style */
-    border-radius: 8px; /* Example border radius */
+    border: 4px solid #e21919ec; /* border style */
+    border-radius: 8px; /* border radius */
   }
   
   .video-container iframe,
@@ -105,8 +105,8 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-    border: none; /* Remove border from iframe or video */
-    border-radius: 6px; /* Example border radius */
+    border: none; 
+    border-radius: 6px; /*border radius */
   }
 
 
@@ -160,11 +160,11 @@ main {
 }
 
 footer {
-    background: #333; /* Example background color */
+    background: #333; /*background color */
     padding: 2rem;
     text-align: center;
     color: #fff;
-    font-size: 2rem; /* Enlarge the font size */
+    font-size: 2rem; /* font size */
   }
   
   .container-menus {
