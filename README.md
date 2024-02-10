@@ -14,7 +14,7 @@
 
 - Through insightful articles, users can gain a deeper understanding of stress triggers and learn evidence-based strategies for coping and resilience. The stress assessment feature provides personalized insights into individual stress levels, enabling users to identify areas for improvement. 
 
-- Join us on the Stress Relief Insights Website and take the first step towards a healthier, happier, and stress-free life!
+- <b> `Join us on the Stress Relief Insights Website and take the first step towards a healthier, happier, and stress-free life!!` </b>
 
 
 
@@ -66,7 +66,7 @@ To get started with this project, ensure you have the following:
 3. Using LiveServer, open the `index.html` file.
 
 
-- Now you're good to go.
+- <u><b>`Now you're good to go.`</b></u>
 
 ## Demo
 
