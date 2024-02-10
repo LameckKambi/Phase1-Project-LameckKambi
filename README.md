@@ -3,7 +3,7 @@
 
 
 - Welcome to the <b>Universal Stress Relief Website</b>! 
-- In today's fast-paced world, stress has become an increasingly prevalent issue affecting people's mental well-being. This website serves as a valuable resource for individuals seeking effective methods to reduce stress and improve their overall quality of life.
+- In today's fast-paced world, <u><b>` Stress `</b></u> has become an increasingly prevalent issue affecting people's mental well-being. This website serves as a valuable resource for individuals seeking effective methods to reduce stress and improve their overall quality of life.
 - This project is a web page that provides news and insights on mental health and stress relief.
 
 ## Importance and Utility
