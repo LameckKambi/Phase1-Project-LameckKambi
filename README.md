@@ -63,7 +63,22 @@ This repo is currently being maintained by:
 
 ## Code Review
 
+### HTML Code
+The HTML code for this project is structured as follows:
+- The header section contains the page title, navigation menu, and logo.
+- The main section contains the blog content, videos, and news cards.
+- The footer section contains the container menu with links to mental health resources and stress relief activities.
+The navigation menu and container menu are implemented using unordered lists (ul) and list items (li). The links in the navigation menu are implemented using anchor tags (a) with href attributes that point to the corresponding stress relief insights. Similarly, the links in the container menu are implemented using anchor tags with href attributes that point to the relevant mental health resources and stress relief activities.
 
+
+### JavaScript Code
+The JavaScript code for this project is structured as follows:
+- The DOMContentLoaded event listener was used to fetch news data from the News API and create news cards dynamically.
+- The createNewsCard function was used to create a news card with a title, description, image, and link.
+- The forEach method was used to iterate over the articles and create news cards for each article.
+- The catch method was used to handle errors that may occur during the fetch request.
+
+To add more functionality to the project, event listeners were added to the navigation links in the header section. When a link is clicked, it takes the user to the corresponding stress relief insights. Similarly, event listeners are added to the container menu links in the footer section. When a link is clicked, it takes the user to the relevant mental health resources and stress relief activities.
 
 
 
