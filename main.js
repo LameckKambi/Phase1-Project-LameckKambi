@@ -35,6 +35,29 @@ window.addEventListener('DOMContentLoaded', () => {
     grid.appendChild(card);
   };
 
+
+// Fetch news data from the News API
+const request = fetch(`https://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=${API_KEY}`);
+request.then(result => result.json())
+  .then(body => {
+    const articles = body.articles;
+
+    // Create news cards
+    articles.forEach(article => {
+      const title = article.title;
+      const description = article.description;
+      const image = article.urlToImage;
+      const link = article.url;
+
+      createNewsCard(title, description, image, link);
+    });
+  })
+  .catch(error => {
+    console.error(error);
+  });
+});
+
+
   //event listeners for the navigation links
   const lonelinessLink = document.querySelector('a[href="#loneliness"]');
   lonelinessLink.addEventListener('click', () => {
@@ -56,23 +79,4 @@ window.addEventListener('DOMContentLoaded', () => {
     window.location.href = "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/anxiety-treatment-options";
   });
 
-  // Fetch news data from the News API
-  const request = fetch(`https://newsapi.org/v2/top-headlines?country=us&category=health&apiKey=${API_KEY}`);
-  request.then(result => result.json())
-    .then(body => {
-      const articles = body.articles;
-
-      // Create news cards
-      articles.forEach(article => {
-        const title = article.title;
-        const description = article.description;
-        const image = article.urlToImage;
-        const link = article.url;
-
-        createNewsCard(title, description, image, link);
-      });
-    })
-    .catch(error => {
-      console.error(error);
-    });
-});
+  
