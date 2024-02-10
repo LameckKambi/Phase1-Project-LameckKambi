@@ -2,7 +2,18 @@
 
 ## Overview
 
-- This project is a web page that provides news and insights on mental health and stress relief. The page is built using HTML, CSS, and JavaScript. The following instructions will guide you on how to retrieve the code from GitHub, set it up on VSCode, and run it. Additionally, we will explain the HTML and JavaScript code in detail.
+- This project is a web page that provides news and insights on mental health and stress relief.
+
+- The page is built using HTML, CSS, and JavaScript. The following instructions will guide you on how to retrieve the code from GitHub, set it up on VSCode, and run it. Additionally, we will explain the HTML and JavaScript code in detail.
+
+```
+- stress-relief-website/
+- │
+- ├── index.html
+- ├── styles.css
+- ├── main.js
+- └── README.md 
+```
 
 
 
@@ -22,8 +33,6 @@ To get started with this project, ensure you have the following:
 1. Linux, Windows, or MacOS
 2. 4GB RAM
 3. 10MB Storage
-4. NodeJS v10.18
-5. Npm install
 
 
 
@@ -39,7 +48,7 @@ To get started with this project, ensure you have the following:
 
 2. Open the cloned repo on Visual Studio Code.
 3. Using LiveServer, open the `index.html` file.
-4. Ensure you've installed JSON server in your machine
+
 
 - Now you're good to go.
 
@@ -47,11 +56,11 @@ To get started with this project, ensure you have the following:
 
 The app, when run, looks as follows:
 
-![Movie Ticket Booking](top.png)
+![Landing page](top.png)
 
 
 
-![Movie Selection](bottom.png)
+![Middle Section](bottom.png)
 
 
 ## Authors
