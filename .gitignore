@@ -1,0 +1,44 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Dependencies
+/node_modules
+/bower_components
+
+# Logs and Databases
+*.log
+*.sql
+*.sqlite
+
+# Build and Distribution
+/dist
+/build
+/out
+/.next
+/.nuxt
+/.sapper
+/.tmp
+/public
+/.cache
+/.idea
+/.vscode
+/.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+/.idea
+/.vscode
+
+# OS
+/.DS_Store
+/.AppleDouble
+/.LSOverride
+/Icon
+._*
+/.Spotlight-V100
+/.Trashes
+/__MACOSX
