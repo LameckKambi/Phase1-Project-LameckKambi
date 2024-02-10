@@ -168,7 +168,7 @@ footer {
   }
   
   .container-menus {
-    max-width: 500px;
+    max-width: 1500px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -179,7 +179,7 @@ footer {
     font-size: 1.2rem;
     text-decoration: none;
     color: #fff;
-    background-color: #3366ff;
+    background-color: #209cca;
     border-radius: 4px;
     transition: all 0.3s;
   }
@@ -191,5 +191,5 @@ footer {
   }
   
   .container-menus a:hover {
-    color: #46eb30;
+    color: #010401dd;
   }
